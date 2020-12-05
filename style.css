@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family: "balloon";
+    src: url("./fonts/SfBalloons-R0jM.ttf");
+    font-style: normal;
+}
+#overall #first{
+    background: black;
+    height: 100vh;
+}
+
+#overall #first .backImage{
+    background: url(/pictures/9.jpeg) no-repeat fixed;
+    height: 100%;
+    opacity: 0.1;
+}
+
+#overall #first h1{
+    text-align: center;
+    color: cornsilk;
+    font-family: "balloon";
+    font-size: 80px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    letter-spacing: 15px;
+    font-weight: 900px;
+}
+
+#overall #second{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, rgb(4, 4, 7));
+    width: 100%;
+}
+
+
+#overall #second video{
+    height: 80%;
+    width: 80%;
+
+}
+
+#overall #third{
+    height: 100vh;
+    width: 100%;
+    background: black;
+    position: relative;
+}
+#overall #third .backImage2{
+    background: url(./pictures/pexels-craig-adderley-1543762.jpg);
+    height: 100%;
+    opacity: 0.1;
+}
+#overall #third .content{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+#overall #third .content h1{
+    margin-top: 30px;
+    font-size: 36px;
+}
+#overall #third .content h2{
+    margin-top: 50px;
+    font-size: 34px;
+}
+#overall #third .content p{
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 130px;
+    margin-right: 130px;
+    opacity: 0.7;
+    color: gold;
+    letter-spacing: 2px;
+}
+#overall #third .content h2{
+    color: crimson;
+}
+
+#overall #fourth{
+    width: 100%;
+    background: linear-gradient(to right, #434343, #000000); 
+}
+#overall #fourth h1{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+#overall #fourth .photos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#overall #fourth .photos img{
+    margin-bottom: 30px;
+    height: 300px;
+    width: 290px;
+    opacity: 0.8;
+    background: chartreuse;
+    border: 2px solid black;
+}
