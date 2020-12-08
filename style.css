@@ -4,7 +4,7 @@
 }
 @font-face{
     font-family: "balloon";
-    src: url("../fonts/SfBalloons-R0jM.ttf");
+    src: url("fonts/SfBalloons-R0jM.ttf");
     font-style: normal;
 }
 #overall #first{
@@ -13,7 +13,7 @@
 }
 
 #overall #first .backImage{
-    background: url(/pictures/9.jpeg) no-repeat center center fixed;
+    background: url(pictures/9.jpeg) no-repeat center center fixed;
     height: 100%;
     opacity: 0.2;
 }
