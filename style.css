@@ -11,11 +11,11 @@
     background: black;
     height: 100vh;
 }
-
 #overall #first .backImage{
-    background: url("../pictures/9.jpeg") no-repeat center center fixed;
-    height: 100%;
     opacity: 0.2;
+    background: black;
+    position: absolute;
+    left: 24%;
 }
 
 #overall #first h1{
