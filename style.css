@@ -13,9 +13,9 @@
 }
 
 #overall #first .backImage{
-    background: url(/pictures/9.jpeg) no-repeat fixed;
+    background: url(/pictures/9.jpeg) no-repeat center center fixed;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.2;
 }
 
 #overall #first h1{
@@ -92,7 +92,7 @@
 }
 #overall #fourth h1{
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 27px;
     font-weight: bold;
     padding-top: 50px;
     text-align: center;
@@ -108,9 +108,9 @@
 }
 #overall #fourth .photos img{
     margin-bottom: 30px;
-    height: 300px;
-    width: 290px;
+    height: 290px;
+    width: 310px;
     opacity: 0.8;
-    background: chartreuse;
+    background: rgb(0, 0, 0);
     border: 2px solid black;
 }
