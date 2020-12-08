@@ -13,7 +13,7 @@
 }
 
 #overall #first .backImage{
-    background: url(../pictures/9.jpeg) no-repeat center center fixed;
+    background: url(//pictures/9.jpeg) no-repeat center center fixed;
     height: 100%;
     opacity: 0.2;
 }
@@ -52,11 +52,7 @@
     background: black;
     position: relative;
 }
-#overall #third .backImage2{
-    background: url(./pictures/pexels-craig-adderley-1543762.jpg);
-    height: 100%;
-    opacity: 0.1;
-}
+
 #overall #third .content{
     position: absolute;
     top: 0px;
